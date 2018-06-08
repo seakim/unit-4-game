@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <title>Self Challenge 1</title>
+    <title>RCB HW4 - Match the number</title>
     <link rel="stylesheet" href="assets/css/bootstrap.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -17,19 +17,31 @@
 <body>
     <div class="container">
         <header>
-            <h1></h1>
+            <h1>RCB HW4 - Match the number</h1>
         </header>
 
         <section class="main">
-            <h2></h2>
-
             <div>
+                <div id='crystal1'>crystal1</div>
+                <div id='crystal2'>crystal2</div>
+                <div id='crystal3'>crystal3</div>
+                <div id='crystal4'>crystal4</div>
+                <h5>When you click on a crystal, it will add a specific amount of points to the total score.</h5>
+                <h5>You win if the total score matches the winning score.</h5>
+                <hr>
+                <div>winningScore: <span id='winningScore'>0</span></div>
+                <div>totalScore: <span id='totalScore'>0</span></div>
+                <hr>
+                <div>Won: <span id='winCount'>0</span></div>
+                <div>Lost: <span id='loseCount'>0</span></div>
             </div>
         </section>
 
         <footer>
         </footer>
     </div>
+
+    <script src="assets/javascript/game.js"></script>
 </body>
 
 </html>
