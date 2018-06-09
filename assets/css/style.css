@@ -1,18 +1,37 @@
-#crystal1 {
-    background-image: url("../images/gem.jpg");
-    width: 380px;
-    height: 571px;
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    margin: 10px;
+body {
+    max-width: 650px;
+    padding: 15px;
+    text-align: center;
 }
-#gem2 {
-    background-image: url("../images/gem.jpg") 0 0px;
+hr {
+    max-width: 550px;
+}
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    margin-top: 30px;
+}
+.crystals {
+    display: inline-block;
+    margin: 30px 0;
+}
+.crystal {
+    overflow: hidden;
     width: 120px;
     height: 120px;
     margin: 10px;
+    float:left;
 }
-/* body {
-    background: grey;
-} */
+
+#gem1 {
+    transform: translate(-9px, -20px);
+}
+#gem2 {
+    transform: translate(-8px, -150px);
+}
+#gem3 {
+    transform: translate(-6px, -278px);
+}
+#gem4 {
+    transform: translate(-9px, -408px);
+}
